@@ -1,9 +1,9 @@
-body {
-    background-color: #290e21; /* Blu scuro */
-    background-image: url('https://twemoji.maxcdn.com/v/latest/svg/1f4bb.svg'), /* Laptop */
-                      url('https://twemoji.maxcdn.com/v/latest/svg/1f916.svg'), /* Robot */
-                      url('https://twemoji.maxcdn.com/v/latest/svg/1f9ee.svg'); /* Chip */
-    background-size: 100px, 120px, 80px; /* Dimensioni diverse per ogni emoji */
-    background-position: top left, center, bottom right; /* Posizioni delle emoji */
-    background-repeat: no-repeat, no-repeat, no-repeat; /* Nessuna ripetizione */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+h2 {
+    font-family: "Caveat", cursive; /* si pas trouvé, cursive sera utilisé */
+    font-weight: 700;
+    font-style: normal;
+    color: red;
 }
